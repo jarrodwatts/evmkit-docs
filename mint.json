@@ -41,7 +41,7 @@
   "navigation": [
     {
       "group": "Introduction",
-      "pages": ["introduction", "get-started"]
+      "pages": ["introduction", "get-started", "folder-structure"]
     },
     {
       "group": "/contracts",
