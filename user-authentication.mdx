@@ -1,3 +1,12 @@
 ---
 title: "User Authentication (SIWE)"
 ---
+
+You may need to know a user's wallet address on the server-side, for use cases such as restricting pages to
+users who own an NFT or for [signature-based minting](https://portal.thirdweb.com/glossary/signature-based-minting).
+
+Providing the user's wallet address from the client is not secure, as it can be spoofed. Instead, you can use
+the [EIP-4361 Sign in with Ethereum (SIWE)](https://eips.ethereum.org/EIPS/eip-4361) standard to ask the user to
+prove ownership of their wallet address by signing a message, and then verifying the signature on the server-side.
+
+EVM Kit uses [thirdweb Auth](https://portal.thirdweb.com/auth) to provide SIWE functionality.
