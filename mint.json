@@ -36,6 +36,11 @@
       "name": "Discord",
       "icon": "discord",
       "url": "https://discord.com/invite/4eQBm7DDNS"
+    },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/jarrodwatts/evmkit"
     }
   ],
   "navigation": [
@@ -63,6 +68,7 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/jarrodwattsdev",
-    "discord": "https://discord.com/invite/4eQBm7DDNS"
+    "discord": "https://discord.com/invite/4eQBm7DDNS",
+    "github": "https://github.com/jarrodwatts/evmkit"
   }
 }
